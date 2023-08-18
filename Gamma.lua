@@ -1,6 +1,6 @@
-local Raylib = {Cast = {}}
+local Gamma = {Cast = {}}
 
-function Raylib.Cast.Simple(MaxBounces, Origin, Direction)
+function Gamma.Cast.Simple(MaxBounces, Origin, Direction)
     local Traces = {}
     
     local Dat = {
@@ -24,4 +24,4 @@ function Raylib.Cast.Simple(MaxBounces, Origin, Direction)
     return Traces
 end
 
-return Raylib
+return Gamma
